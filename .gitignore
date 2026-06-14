@@ -1,0 +1,24 @@
+# Bloqueia os CSVs pesados do Spotify (Fontes de dados)
+data/raw/*
+data/processed/*
+
+# Abre uma exceção para os arquivos de marcação das pastas
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Bloqueia bancos de dados locais 
+*.db
+*.sqlite
+*.sqlite3
+
+# Bloqueia a pasta do Ambiente Virtual (Evita subir gigabytes de bibliotecas)
+.venv/
+venv/
+env/
+
+# Bloqueia caches automáticos do Python e arquivos do sistema
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.vscode/
