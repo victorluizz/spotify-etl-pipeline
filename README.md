@@ -1,6 +1,3 @@
----
-
-```markdown
 # 🧬 Spotify Data DNA - Pipeline ETL
 
 Este projeto implementa um pipeline de Engenharia de Dados completo (ETL - Extract, Transform, Load) utilizando Python, Pandas e SQLite para analisar e tratar dados de mais de 114.000 faixas musicais do Spotify. 
@@ -26,7 +23,6 @@ spotify-etl-pipeline/
 ├── .gitignore             # Filtro de arquivos para o repositório
 ├── main.py                # Maestro que orquestra a execução do pipeline
 └── README.md              # Documentação do projeto
-
 ```
 
 ---
